@@ -55,32 +55,32 @@
           text: 'Hidden',
           buttons: [
             {
-              text: 'productinfo_numberofitems',
+              text: 'Name',
               action: function ( e, dt, node, config ) {
                 dt.column( -6 ).visible( ! dt.column( -6 ).visible() );
               }
             },{
-              text: 'conditionid',
+              text: 'Position',
               action: function ( e, dt, node, config ) {
                 dt.column( -5 ).visible( ! dt.column( -5 ).visible() );
               }
             },{
-              text: 'itemprice_amount',
+              text: 'Office',
               action: function ( e, dt, node, config ) {
                 dt.column( -4 ).visible( ! dt.column( -4 ).visible() );
               }
             },{
-              text: 'carrier',
+              text: 'Age',
               action: function ( e, dt, node, config ) {
                 dt.column( -3 ).visible( ! dt.column( -3 ).visible() );
               }
             },{
-              text: 'shippingprice_amount',
+              text: 'Start date',
               action: function ( e, dt, node, config ) {
                 dt.column( -2 ).visible( ! dt.column( -2 ).visible() );
               }
             },{
-              text: 'tracking_number',
+              text: 'Email',
               action: function ( e, dt, node, config ) {
                 dt.column( -1 ).visible( ! dt.column( -1 ).visible() );
               }
