@@ -1,5 +1,6 @@
 let loadData = document.querySelector("#load-data")
 loadData.addEventListener("click", ()=> {
+    loadData.disabled = true
     loadDataFromBD()
 })
 
