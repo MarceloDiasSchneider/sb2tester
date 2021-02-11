@@ -16,11 +16,11 @@ class DatabasePdoClass
     public function creaConnessione()
     {        
         $config = array(
-            'host' => 'localhost',
-            'username' => 'root',
-            'password' => '',
+            'host' => '107.180.25.194',
+            'username' => 'MarceloSchneider',
+            'password' => 'pfekr3sJ22VjzH8',
             'dbname' => 'sell-master',
-            'port'=>'80'
+            'port'=>'3306'
         );
         //error_reporting('E_ALL');
     
