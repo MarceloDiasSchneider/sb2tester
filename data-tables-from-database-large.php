@@ -63,15 +63,15 @@
                     <!-- Page Heading -->
                     <div id="ricerca" class="row">
                         <div class="col-sm-12">
-                            <h1 class="h3 mb-2 text-gray-800">Inizia una ricerca</h1>
-                            <div class="input-group mb-3">
+                            <h1 class="h3 mb-2 text-gray-800">DataTables Serve-Side</h1>
+                            <!-- <div class="input-group mb-3">
                                 <span class="input-group-text">Dal</span>
                                 <input type="date" id="date-start" class="form-control" min="2020-01-01" value="2020-11-05" style="max-width : 180px;">
                                 <span class="input-group-text">al</span>
                                 <input type="date" id="date-end" class="form-control" max="2020-11-31" value="2020-11-05"style="max-width : 180px;">
                                 <input type="submit" id='load-data' class="btn btn-primary" value="Ricerca">
 
-                            </div>
+                            </div> -->
                             <!-- <div class="input-group mb-3">
                                 <span class="input-group-text">Azienda</span>
                                 <select id="azienda" class="form-select">
@@ -97,36 +97,26 @@
                                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                                     <thead>
                                         <tr>
-                                            <th>sellersku</th>
-                                            <th>posiorderitemidtion</th>
-                                            <th>amazonorderid</th>
-                                            <th>date</th>
-                                            <th>title</th>
-                                            <th>quantityordered</th>
-                                            <th>productinfo_numberofitems</th>
-                                            <th>conditionid</th>
-                                            <th>itemprice_amount</th>
-                                            <th>carrier</th>
-                                            <th>shippingprice_amount</th>
-                                            <th>tracking_number</th>
+                                            <th>First name</th>
+                                            <th>Last name</th>
+                                            <th>Email</th>
+                                            <th>Gender</th>
+                                            <th>Country</th>
+                                            <th>Created</th>
+                                            <th>Status</th>
                                         </tr>
                                     </thead>
                                     <tfoot>
                                         <tr>
-                                            <th>sellersku</th>
-                                            <th>posiorderitemidtion</th>
-                                            <th>amazonorderid</th>
-                                            <th>date</th>
-                                            <th>title</th>
-                                            <th>quantityordered</th>
-                                            <th>productinfo_numberofitems</th>
-                                            <th>conditionid</th>
-                                            <th>itemprice_amount</th>
-                                            <th>carrier</th>
-                                            <th>shippingprice_amount</th>
-                                            <th>tracking_number</th>
+                                            <th>First name</th>
+                                            <th>Last name</th>
+                                            <th>Email</th>
+                                            <th>Gender</th>
+                                            <th>Country</th>
+                                            <th>Created</th>
+                                            <th>Status</th>
                                         </tr>
-                                    </tfoot>
+                                    </tbody>
                                 </table>
                             </div>
                         </div>
@@ -224,17 +214,14 @@
     <script type="text/javascript" src="vendor/datatables-extensions/Select-1.3.1/js/dataTables.select.js"></script>
 
     <!-- Page level custom scripts -->
-    <script type="text/javascript" src="js/script/set-datatables-from-db.js"></script>
+    <!-- <script type="text/javascript" src="js/script/set-datatables-from-db.js"></script> -->
 
     <!-- Library jquery from google -->
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
 
     <!-- validation input date Inizia una ricerca -->
-    <script type="text/javascript" src="js/script/date-validation.js"></script>
+    <script type="text/javascript" src="js/script/load-data-from-database-lager.js"></script>
     
-    <!-- Inizia una ricerca on submit click -->
-    <script type="text/javascript" src="js/script/load-data-from-db.js"></script>
-
 </body>
 
 </html>

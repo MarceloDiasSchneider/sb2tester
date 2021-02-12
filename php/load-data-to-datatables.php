@@ -36,8 +36,7 @@
         }
 
         } catch (PDOException $e) {
-        echo ("errore" . __LINE__ . __FUNCTION__ . $e->getMessage());
-        error_log(__LINE__ . __FILE__ . " error on select : " .  $e->getMessage(), 1,  "marcelo.d.schneider@gmail.com");
+            echo ("errore".$e->getMessage());
         }
     $db = null;
 ?>

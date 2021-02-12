@@ -55,27 +55,27 @@
           text: 'Hidden',
           buttons: [
             {
-              text: 'Name',
+              text: 'Position',
               action: function ( e, dt, node, config ) {
                 dt.column( -6 ).visible( ! dt.column( -6 ).visible() );
               }
             },{
-              text: 'Position',
+              text: 'Office',
               action: function ( e, dt, node, config ) {
                 dt.column( -5 ).visible( ! dt.column( -5 ).visible() );
               }
             },{
-              text: 'Office',
+              text: 'Age',
               action: function ( e, dt, node, config ) {
                 dt.column( -4 ).visible( ! dt.column( -4 ).visible() );
               }
             },{
-              text: 'Age',
+              text: 'Start date',
               action: function ( e, dt, node, config ) {
                 dt.column( -3 ).visible( ! dt.column( -3 ).visible() );
               }
             },{
-              text: 'Start date',
+              text: 'Salary',
               action: function ( e, dt, node, config ) {
                 dt.column( -2 ).visible( ! dt.column( -2 ).visible() );
               }
