@@ -1,9 +1,9 @@
 <?php 
     // Database connection info 
     $dbDetails = array( 
-        'host' => 'localhost', 
-        'user' => 'root', 
-        'pass' => '', 
+        'host' => '107.180.25.194', 
+        'user' => 'MarceloSchneider', 
+        'pass' => 'pfekr3sJ22VjzH8', 
         'db'   => 'sell-master' 
     ); 
     
