@@ -52,7 +52,7 @@
 
                     <!-- Content Row -->
                     <div class="row">
-                        <div class="col-xl-8 col-lg-7">
+                        <div class="col-xl-10 col-lg-11 col-md-12">
                             <canvas id="chart" width="2" height="1"></canvas>
                         </div>
                     </div>
@@ -109,13 +109,13 @@
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Core plugin JavaScript-->
-    <!-- <script src="vendor/jquery-easing/jquery.easing.min.js"></script> -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
     <!-- Custom scripts for all pages-->
-    <!-- <script src="js/sb-admin-2.min.js"></script> -->
+    <script src="js/sb-admin-2.min.js"></script>
 
     <!-- Page level plugins -->
-    <!-- <script src="vendor/chart.js/Chart.min.js"></script> -->
+    <script src="vendor/chart.js/Chart.min.js"></script>
 
     <!-- Page level custom scripts -->
     <!-- <script src="js/demo/chart-area-demo.js"></script> -->
@@ -124,7 +124,7 @@
 
 
     <!-- Create a the chart -->
-    <script src="js/scriptCharts/chrart-from-json.js"></script>
+    <script src="js/scriptCharts/chart-from-json.js"></script>
 
 
 </body>

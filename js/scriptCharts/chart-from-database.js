@@ -1,19 +1,19 @@
-$.getJSON("json/data.json",function(json){
-    let xlabels = []
-    let ydata = []
+/* load data from data base */
+$.post('php/charts/carrier-load-data-from-database.php', (phpReturn) => {
+    let obj =  JSON.parse(phpReturn)
+    let xlabels = obj.carriers
+    let ydata = obj.totals
     let color = []
-    let obj = json
-    obj.forEach(element => {
-        xlabels.push(element.name)
-        ydata.push(element.age)
+    for (let i = 0; i < xlabels.length; i++) {
         color.push(randomColor())
-    });
+    }
     console.log(xlabels);
     console.log(ydata);
     console.log(color);
     createChart(xlabels, ydata, color)
 })
 
+/* create a chart */
 function createChart(xl, yd, color){
 
     let chart = document.getElementById('chart').getContext('2d');
@@ -22,7 +22,7 @@ function createChart(xl, yd, color){
     Chart.defaults.global.defaultFontColor = 'black'
 
     let createChart = new Chart(chart, {
-        type: 'line',
+        type: 'pie',
         data: {
             labels: xl,
             datasets: [
