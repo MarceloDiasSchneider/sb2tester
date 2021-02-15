@@ -24,7 +24,7 @@ function createChart(xl, yd, color){
             labels: xl,
             datasets: [
                 {
-                    label: 'Champion points in each edition',
+                    label: 'Ages',
                     data: yd,
                     backgroundColor : color,
                     borderWidth: 1,
