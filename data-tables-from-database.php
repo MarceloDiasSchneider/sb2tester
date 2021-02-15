@@ -222,19 +222,16 @@
     <script type="text/javascript" src="vendor/datatables-extensions/SearchPanes-1.2.2/js/dataTables.searchPanes.js"></script>
     <script type="text/javascript" src="vendor/datatables-extensions/SearchPanes-1.2.2/js/searchPanes.bootstrap4.js"></script>
     <script type="text/javascript" src="vendor/datatables-extensions/Select-1.3.1/js/dataTables.select.js"></script>
-
-    <!-- Page level custom scripts -->
-    <script type="text/javascript" src="js/script/set-datatables-from-db.js"></script>
-
-    <!-- Library jquery from google -->
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
-
-    <!-- validation input date Inizia una ricerca -->
-    <script type="text/javascript" src="js/script/date-validation.js"></script>
     
-    <!-- Inizia una ricerca on submit click -->
-    <script type="text/javascript" src="js/script/load-data-from-db.js"></script>
-
+    <!-- Page level custom scripts -->
+    <script type="text/javascript" src="js/script-datatables/set-datatables-from-db.js"></script>
+    
+        <!-- Inizia una ricerca on submit click -->
+        <script type="text/javascript" src="js/script-datatables/get-data-from-db.js"></script>
+    
+    <!-- validation input date Inizia una ricerca -->
+    <script type="text/javascript" src="js/script-datatables/date-validation.js"></script>
+    
 </body>
 
 </html>

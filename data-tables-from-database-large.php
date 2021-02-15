@@ -220,7 +220,7 @@
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
 
     <!-- validation input date Inizia una ricerca -->
-    <script type="text/javascript" src="js/script/load-data-from-database-lager.js"></script>
+    <script type="text/javascript" src="js/script-datatables/load-data-from-database-lager.js"></script>
     
 </body>
 

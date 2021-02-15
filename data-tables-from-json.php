@@ -190,7 +190,7 @@
     <script type="text/javascript" src="vendor/datatables-extensions/Select-1.3.1/js/dataTables.select.js"></script>
 
     <!-- Initiate datatables from json file -->
-    <script type="text/javascript" src="js/script/load-data-from-json.js"></script>
+    <script type="text/javascript" src="js/script-datatables/load-data-from-json.js"></script>
 
 </body>
 

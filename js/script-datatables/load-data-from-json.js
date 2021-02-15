@@ -1,6 +1,6 @@
 // Call the dataTables jQuery plugin
 // function loadDatatables() {
-  $.getJSON("json/dataTables.json",function(json){
+  $.getJSON("json/data.json",function(json){
     $('#dataTable').DataTable({
       data: json,
       columns: [
