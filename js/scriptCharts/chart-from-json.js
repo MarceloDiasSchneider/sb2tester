@@ -24,7 +24,7 @@ function createChart(xl, yd, color){
             labels: xl,
             datasets: [
                 {
-                    label: 'Ages',
+                    label: 'Champion points in each edition',
                     data: yd,
                     backgroundColor : color,
                     borderWidth: 1,
@@ -38,7 +38,7 @@ function createChart(xl, yd, color){
         options: {
             title:{
                 display: true,
-                text: 'Historical Brazilian Championship',
+                text: 'Ages',
                 fontSize: 25
             },
             legend:{
